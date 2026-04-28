@@ -44,7 +44,7 @@ A simple, mobile-first web app for two friends to track shared trip expenses, ad
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/splittrip.git
+   git clone https://github.com/theuer/splittrip.git
    cd splittrip
    ```
 
