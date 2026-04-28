@@ -4,6 +4,8 @@ A simple, mobile-first web app for two friends to track shared trip expenses, ad
 
 ![SplitTrip](https://img.shields.io/badge/status-active-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue)
 
+![SplitTrip screenshot](docs/screenshot.png)
+
 ## Features
 
 - **Trip Management** — Create trips with two travelers and a base currency
@@ -60,7 +62,11 @@ A simple, mobile-first web app for two friends to track shared trip expenses, ad
    cp .env.example .env
    ```
 
-   Then edit `.env` with your database credentials and a random session secret.
+   Then edit `.env` with your database connection string:
+
+   | Variable | Description |
+   |----------|-------------|
+   | `DATABASE_URL` | PostgreSQL connection string, e.g. `postgresql://user:pass@localhost:5432/splittrip` |
 
 4. **Push the database schema**
 
